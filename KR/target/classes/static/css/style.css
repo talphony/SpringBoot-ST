@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #191919;
+    font-size: 24px;
+    margin: 0;
+    height: 100vh;
+}
+body .your-form-class label {
+    margin-bottom: 0 !important;
+}
+label {
+    margin-bottom: 0 !important;
+}
+.form-controls label {
+    margin-bottom: 0;
+}
+button {
+    border-style:none;
+}
+label {
+    margin-bottom: 0;
+}
+form {
+    display: flex;
+    margin-top: 0;
+    unicode-bidi: isolate;
+}
+label {
+    margin-bottom: 0;
+}
+.wind {
+    position: relative;
+    display: inline-block;
+    min-width: 40%;
+}
+.wind-vuipad{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-size: 0.5em;
+    color: #D4D4D4;
+    background-color: #626262;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.25s ease;
+    gap:5px;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+button:active {
+    transform: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-style:none;
+}
+label {
+    margin-bottom: 0.83em;
+}
+input {
+    width: 100%;
+    padding: 0.75em;
+    font-size: 0.66em;
+    box-sizing: border-box;
+    background: none;
+    outline:none;
+    border-color: #626262;
+    color: #D4D4D4;
+    border-style:solid;
+    border-radius: 0.41em;
+}
+textarea {
+    width: 100%;
+    padding: 0.75em;
+    font-size: 0.66em;
+    box-sizing: border-box;
+    background: none;
+    outline:none;
+    border-color: #626262;
+    color: #D4D4D4;
+    border-style:solid;
+    border-radius: 0.41em;
+    resize: none;
+}
+h1 {
+    font-family: inter, serif;
+    font-size: 1em;
+    color: #D4D4D4;
+    margin: 0;
+}
+h5 {
+    font-family: inter, serif;
+    font-size: 0.5em;
+    color: #D4D4D4;
+    margin: 0;
+}
+h6 {
+    font-family: inter, serif;
+    font-size: 0.666em;
+    color: #D4D4D4;
+    margin-bottom: 0.8333em;
+}
+a {
+    font-family: inter, serif;
+    font-size: 0.66em;
+    color: #4570FF;
+    text-decoration: none;
+    font-weight: 400;
+}
+p {
+    font-family: inter, serif;
+    color: #D4D4D4;
+    font-size: 0.66em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-right: 7px;
+}
+.ToDo {
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.1666em 0.41666em;
+    background-color: #723433;
+    border-radius:3px;
+    margin-bottom: 0.4166em;
+}
+.Doing {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.1666em 0.41666em;
+    background-color: #89652E;
+    border-radius:3px;
+    margin-bottom: 0.4166em;
+}
+.Done {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.1666em 0.41666em;
+    background-color: #23593E;
+    border-radius:3px;
+    margin-bottom: 0.4166em;
+}
+.adaptive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.adaptive-mod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.formBackground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    max-width: 480px;
+    padding: 2.5em 2.083em 1.875em;
+    border-radius: 0.625em;
+    background-color: #202020;
+}
+.insForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15.833em;
+    margin: 2.0833em 0 0.833em 0;
+
+}
+.marg {
+    margin-bottom: 0.833em;
+}
+.AAA {
+    margin-bottom: 1.666em;
+}
+.aaa {
+    margin-bottom: 0.4166em;
+}
+.btnIn {
+    font-family: inter, serif;
+    width: 100%;
+    color: #D4D4D4;
+    background: #4570FF;
+    font-size: 0.833em;
+    padding: 0.666em 0 0.666em 0;
+    border-radius: 10px;
+    outline:none;
+    box-sizing: border-box;
+}
+.btn-back-form {
+    font-family: inter, serif;
+    text-align: center;
+    width: 100%;
+    color: #262626;
+    background: #D4D4D4;
+    font-size: 0.833em;
+    padding: 0.666em 0 0.666em 0;
+    border-radius: 10px;
+    outline:none;
+    box-sizing: border-box;
+}
+.btnReg {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-item {
+    display: flex;
+
+}
+.btn-a {
+    font-family: inter, serif;
+    color: #D4D4D4;
+    background: #262626;
+    padding: 1.5em 3.45833em;
+    font-size: 0.833em;
+    border-radius: 10px;
+    margin-right: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.btn-a-add {
+    font-family: inter, serif;
+    color: #D4D4D4;
+    background: #4570FF;
+    padding: 1.5em 3.45833em;
+    font-size: 0.833em;
+    border-radius: 10px;
+    margin-right: 0.6em;
+    margin-bottom: 0.6em;
+}
+.btn-back {
+    font-family: inter, serif;
+    text-align: center;
+    color: #262626;
+    background: #D4D4D4;
+    padding: 0.666em 0;
+    font-size: 0.5833em;
+    border-radius: 10px;
+}
+.btn-add {
+    font-family: inter, serif;
+    text-align: center;
+    color: #D4D4D4;
+    background: #4570FF;
+    padding: 0.666em 0;
+    font-size: 0.5833em;
+    border-radius: 10px;
+    margin-bottom: 0.6em;
+}
+.btn-add-add{
+    font-family: inter, serif;
+    text-align: center;
+    color: #D4D4D4;
+    background: #4570FF;
+    padding: 0.666em 0.833em;
+    font-size: 0.5833em;
+    border-radius: 10px;
+}
+.name-project {
+    margin-bottom: 0.5em;
+}
+.dir-project {
+}
+.svg-plus {
+    width: 0.666em;
+    height: 0.666em;
+    fill: #D4D4D4;
+}
+
+.head-main-task {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-proj-task {
+    display: flex;
+    flex-direction: column;
+}
+.ehai {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.palochka {
+    height: 1px;
+    background-color: #D4D4D4;
+    width: 100%;
+    margin-top: 1.666em;
+    margin-bottom: 0.41666em;
+}
+.head-main-task-active-button {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.grid-task {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 19% 19% 19%;
+    gap: 1%;
+}
+.task-card {
+    box-sizing: border-box;
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 0.8333em;
+    margin-bottom: 5%;
+
+}
+.padding-title {
+    margin-bottom: 0.8333em;
+}
+.div-btn-task-card {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar {
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 15%;
+    padding: 1.666em 0.5em;
+    background-color: #202020;
+}
+
+.project-task-str {
+    display: flex;
+}
+.main-v {
+    width: 100%;
+    padding: 3.333em 4em 0 4em;
+}
+.padding-dis {
+    margin-bottom: 1.25em;
+}
+
+@media (min-width: 420px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1640px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1920px) {
+    body {
+        font-size: 28px;
+    }
+}
+
