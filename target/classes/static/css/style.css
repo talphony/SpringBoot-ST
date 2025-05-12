@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root {
+    --body-background: #191919;
+    --background-form: #202020;
+
+    --text-white: #D4D4D4;
+
+    --btn-blue: #2383E2;
+    --btn-grey: #262626;
+    --btn-grey2: #626262;
+    --btn-white: #D4D4D4;
+
+    --border-grey: #626262;
+
+    --inf-color-red: #723433;
+    --inf-color-orange: #89652E;
+    --inf-color-green: #23593E;
+}
+body {
+    background-color: var(--body-background);
+    font-size: 24px;
+    margin: 0;
+    height: 100vh;
+}
+body .your-form-class label {
+    margin-bottom: 0 !important;
+}
+label {
+    margin-bottom: 0 !important;
+}
+.form-controls label {
+    margin-bottom: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 0;
+}
+li {
+    list-style-type: none;
+}
+
+button {
+    border-style:none;
+    cursor: pointer;
+}
+label {
+    margin-bottom: 0;
+}
+form {
+    display: flex;
+    margin-top: 0;
+    unicode-bidi: isolate;
+}
+label {
+    margin-bottom: 0;
+}
+.wind {
+    position: relative;
+    display: inline-block;
+    min-width: 40%;
+}
+.wind-vuipad {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-size: 0.5em;
+    color: var(--text-white);
+    background-color: var(--btn-grey2);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.25s ease;
+    gap:5px;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+button:active {
+    transform: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-style:none;
+}
+label {
+    margin-bottom: 0.83em;
+}
+input {
+    width: 100%;
+    padding: 0.89em 0.75em;
+    font-size: 0.66em;
+    box-sizing: border-box;
+    background: none;
+    outline:none;
+    border-color: var(--border-grey);
+    color: var(--text-white);
+    border-style:solid;
+    border-radius: 0.41em;
+    cursor: pointer;
+}
+textarea {
+    width: 100%;
+    padding: 0.75em;
+    font-size: 0.66em;
+    box-sizing: border-box;
+    background: none;
+    outline:none;
+    border-color: var(--border-grey);
+    color: var(--text-white);
+    border-style: solid;
+    border-radius: 0.41em;
+    resize: none;
+    cursor: pointer;
+}
+h1 {
+    font-family: inter, serif;
+    font-size: 1em;
+    color: var(--text-white);
+    margin: 0;
+}
+h5 {
+    font-family: inter, serif;
+    font-size: 0.5em;
+    color: var(--text-white);
+    margin: 0;
+}
+h6 {
+    font-family: inter, serif;
+    font-size: 0.666em;
+    color: var(--text-white);
+    margin-bottom: 0.8333em;
+}
+a {
+    font-family: inter, serif;
+    font-size: 0.66em;
+    color: var(--btn-blue);
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+p {
+    font-family: inter, serif;
+    color: var(--text-white);
+    font-size: 0.66em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-right: 7px;
+}
+.ToDo {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.1666em 0.41666em;
+    background-color: var(--inf-color-red);
+    border-radius:3px;
+    margin-bottom: 0.4166em;
+}
+.Doing {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.1666em 0.41666em;
+    background-color: var(--inf-color-orange);
+    border-radius:3px;
+    margin-bottom: 0.4166em;
+}
+.Done {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.1666em 0.41666em;
+    background-color: var(--inf-color-green);
+    border-radius:3px;
+    margin-bottom: 0.4166em;
+}
+.adaptive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.adaptive-mod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.formBackground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    max-width: 480px;
+    padding: 2.5em 2.083em 1.875em;
+    border-radius: 0.625em;
+    background-color: var(--background-form);
+}
+.insForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15.833em;
+    margin: 2.0833em 0 0.833em 0;
+
+}
+.marg {
+    margin-bottom: 0.833em;
+}
+.AAA {
+    margin-bottom: 1.666em;
+}
+.aaa {
+    margin-bottom: 0.4166em;
+}
+.btnIn {
+    font-family: inter, serif;
+    width: 100%;
+    color: var(--text-white);
+    background: var(--btn-blue);
+    font-size: 0.833em;
+    padding: 0.666em 0 0.666em 0;
+    border-radius: 10px;
+    outline:none;
+    box-sizing: border-box;
+}
+.btn-back-form {
+    font-family: inter, serif;
+    text-align: center;
+    width: 100%;
+    color: var(--btn-grey);
+    background: var(--text-white);
+    font-size: 0.833em;
+    padding: 0.666em 0 0.666em 0;
+    border-radius: 10px;
+    outline:none;
+    box-sizing: border-box;
+}
+.btnReg {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-item {
+    display: flex;
+
+}
+.btn-a {
+    font-family: inter, serif;
+    color: var(--text-white);
+    background: var(--btn-grey);
+    padding: 1.5em 3.45833em;
+    font-size: 0.833em;
+    border-radius: 10px;
+    margin-right: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.btn-a-add {
+    font-family: inter, serif;
+    color: var(--text-white);
+    background: var(--btn-blue);
+    padding: 1.5em 3.45833em;
+    font-size: 0.833em;
+    border-radius: 10px;
+    margin-right: 0.6em;
+    margin-bottom: 0.6em;
+}
+.btn-a-add-member {
+    font-family: inter, serif;
+    height: 100%;
+    color: var(--text-white);
+    background: var(--btn-blue);
+    padding: 0 0.666em;
+    font-size: 0.666em;
+    border-radius: 10px;
+}
+.btn-a-add-member-delete {
+    font-family: inter, serif;
+    height: 100%;
+    color: var(--text-white);
+    background: var(--btn-blue);
+    padding: 0 0.666em;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+.btn-back {
+    font-family: inter, serif;
+    text-align: center;
+    color: var(--btn-grey);
+    background: var(--btn-white);
+    padding: 0.666em 0;
+    font-size: 0.5833em;
+    border-radius: 10px;
+}
+.btn-add {
+    font-family: inter, serif;
+    text-align: center;
+    color: var(--text-white);
+    background: var(--btn-blue);
+    padding: 0.666em 0;
+    font-size: 0.5833em;
+    border-radius: 10px;
+    margin-bottom: 0.6em;
+}
+.btn-add-add{
+    font-family: inter, serif;
+    text-align: center;
+    color: var(--text-white);
+    background: var(--btn-blue);
+    padding: 0.666em 0.833em;
+    font-size: 0.5833em;
+    border-radius: 10px;
+}
+.name-project {
+    margin-bottom: 0.5em;
+}
+.dir-project {
+}
+.svg-plus {
+    width: 0.666em;
+    height: 0.666em;
+    fill: var(--text-white);
+}
+
+.head-main-task {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-proj-task {
+    display: flex;
+    flex-direction: column;
+}
+.ehai {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.palochka {
+    height: 1px;
+    background-color: var(--btn-white);
+    width: 100%;
+    margin-top: 1.666em;
+    margin-bottom: 0.41666em;
+}
+.head-main-task-active-button {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.grid-task {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 19% 19% 19%;
+    gap: 1%;
+}
+.task-card {
+    box-sizing: border-box;
+    background-color: var(--background-form);
+    border-radius: 10px;
+    padding: 0.8333em;
+    margin-bottom: 5%;
+
+}
+.padding-title {
+    margin-bottom: 0.8333em;
+}
+.div-btn-task-card {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar {
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 15%;
+    padding: 1.666em 0.5em;
+    background-color: var(--background-form);
+}
+
+.project-task-str {
+    display: flex;
+}
+.main-v {
+    width: 100%;
+    padding: 3.333em 4em 0 4em;
+}
+.padding-dis {
+    margin-bottom: 1.25em;
+}
+
+.list-group-item {
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inter, serif;
+    font-size: 0.666em;
+    color: var(--text-white);
+    margin-bottom: 0.8333em;
+}
+.bb {
+    height: 100%;
+}
+.spbtw {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.form-group{
+    display: flex;
+    width: 80%;
+}
+.form-group-add {
+    display: flex;
+    gap: 0.8333em;
+}
+.background-add-member {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 4.16666em 2.0833em;
+    background-color: var(--background-form);
+    width: 33%;
+
+}
+.ad {
+    display: flex;
+    justify-content: center;
+}
+.form-add-member {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.08333em;
+}
+.mod-label {
+    width: 100%;
+}
+.h1-mod {
+    text-align: center;
+}
+.h5-mod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
+}
+.form-add {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.625em;
+}
+@media (min-width: 100px) {
+    body {
+        font-size: 2vw;
+    }
+    .grid-task {
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+@media (min-width: 420px) {
+    body {
+        font-size: 4vw;
+    }
+    .grid-task {
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 24px;
+    }
+    .grid-task {
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        font-size: 24px;
+    }
+    .grid-task {
+        grid-template-columns: 30% 30% 30%;
+    }
+    /*h1 {*/
+    /*    font-size: 1.1vw;*/
+    /*}*/
+    /*h6 {*/
+    /*    font-size: 0.8vw;*/
+    /*}*/
+    /*.wind-vuipad {*/
+    /*    font-size: 0.8vw;*/
+    /*}*/
+    /*input {*/
+    /*    font-size: 0.8vw;*/
+    /*}*/
+}
+
+@media (min-width: 1640px) {
+    body {
+        font-size: 1.27vw;
+    }
+    .grid-task {
+        grid-template-columns: 19% 19% 19%;
+    }
+    /*h1 {*/
+    /*    font-size: 1.2vw;*/
+    /*}*/
+    /*h6 {*/
+    /*    font-size: 0.8vw;*/
+    /*}*/
+    /*.wind-vuipad {*/
+    /*    font-size: 0.8vw;*/
+    /*}*/
+    /*input {*/
+    /*    font-size: 0.8vw;*/
+    /*}*/
+}
+
+@media (min-width: 1920px) {
+    body {
+        font-size: 1.2vw;
+    }
+}
+
